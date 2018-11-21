@@ -1,0 +1,28 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "1. git clone https://github.com/niceaji/test-app\r 1. cd test-app\r 1. npm install \r 1. npm start",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve -p 4000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceaji/test-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niceaji/test-app/issues"
+  },
+  "homepage": "https://github.com/niceaji/test-app#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.1",
+    "serve": "^10.1.1"
+  }
+}
